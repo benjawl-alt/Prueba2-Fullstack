@@ -1,16 +1,20 @@
-import { Link } from "react-router-dom";
+import React from "react";
 
-function Navbar() {
+export default function Nav() {
   return (
-    <nav style={{ background: "#222", padding: "10px" }}>
-      <Link to="/" style={{ color: "white", margin: "10px" }}>Inicio</Link>
-      <Link to="/productos" style={{ color: "white", margin: "10px" }}>Productos</Link>
-      <Link to="/nosotros" style={{ color: "white", margin: "10px" }}>Nosotros</Link>
-      <Link to="/formulario" style={{ color: "white", margin: "10px" }}>Formulario</Link>
-      <Link to="/carrito" style={{ color: "white", margin: "10px" }}>Carrito</Link>
-      <Link to="/login" style={{ color: "white", margin: "10px" }}>Iniciar sesión</Link>
-    </nav>
+    <header id="header">
+      <nav id="nav">
+        <ul>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/productos">Modelos</a></li>
+          <li><a href="/Blogs">Blogs</a></li>
+          <li><a href="/carrito">Carrito</a></li>
+          <li><a href="/formulario">Registro</a></li>
+          <li><a href="/login">Inicio de Sesion</a></li>
+          <li><a href="/nosotros">Nosotros</a></li>
+          <li><a href="/Contacto" className="button primary">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
   );
 }
-
-export default Navbar;
