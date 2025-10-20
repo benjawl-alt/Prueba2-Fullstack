@@ -1,0 +1,44 @@
+/* body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+#banner {
+  position: relative;
+  width: 100vw;
+  min-height: 70vh; 
+  background: url('images/Subaru_WRX_Imagenes_Web-22_copy_1.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto;    
+
+}
+
+#banner .content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 900px; 
+  margin: 0 auto;
+  padding: 48px 16px;
+  background: rgba(0,0,0,0.2); 
+}
+
+.goto-next {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 3;
+  text-shadow: 0 4px 10px #000;
+} */
